@@ -60,7 +60,7 @@ def tor_requests():
     print(Fore.BLUE + Back.RESET + '[#]> ----------------------------------------------------------------------- <[#]')
     proxies = {'https': 'socks5h://127.0.0.1:9150', 'https':'socks5h://127.0.0.1:9150'}
     respuesta = requests.get(pagina, proxies=proxies)
-    respuesta.status_code
+    print(respuesta.status_code)
     print('[#]> ----------------------------------------------------------------------- <[#]')
     print(Fore.RED + Back.RESET + '\n[#] Presiona ENTER para volver al menú.')
     choice = input(Fore.BLUE + Back.RESET + '[#] ====>  ')
