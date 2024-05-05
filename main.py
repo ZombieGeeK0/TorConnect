@@ -1,4 +1,4 @@
-# importamos las librerías
+
 from colorama import Fore, Back
 import os, sys, requests
 from torpy import TorClient
